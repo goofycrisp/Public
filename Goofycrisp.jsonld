@@ -1,5 +1,6 @@
 {
   "@context": {
+    "@language": "en-us",
     "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
     "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
     "hashAlgorithm": "CIP100:hashAlgorithm",
@@ -27,7 +28,14 @@
         },
         "paymentAddress": "CIP119:paymentAddress",
         "givenName": "CIP119:givenName",
-        "image": "CIP119:image",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject",
+            "contentUrl": "CIP119:contentUrl",
+            "sha256": "CIP119:sha256"
+          }
+        },
         "objectives": "CIP119:objectives",
         "motivations": "CIP119:motivations",
         "qualifications": "CIP119:qualifications",
@@ -53,21 +61,25 @@
   "authors": [],
   "hashAlgorithm": "blake2b-256",
   "body": {
-    "doNotList": false,
     "givenName": "Goofycrisp",
-    "motivations": "Been an active Cardano community member since 2017 and created Snek in 2023. Today I focus on making Snek and Cardano a success.",
-    "objectives": "I believe in decentralization and in Cardano. As a Snek core contributor, I want to give a voice to our community in the future of this chain.",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://ipfs.io/ipfs/QmTMxCBHJ9ntH6pU4qDMsjdp6dHPxhiUtRx8MStfz1Uyed",
+      "sha256": "f1f30a858fdc911a4c9981a7befb8f5fc3bea7613643adecc39019ddeb8c3369"
+    },
+    "motivations": "Cardano has massive potential, but it requires bold thinking, smart resource allocation, and real builders leading the way. I’ve been part of this ecosystem since 2017, and today, I want to use my voice to back the people, products, and ideas that can make Cardano thrive. I’m motivated by outcomes — not politics — and want to help bring clarity, momentum, and accountability to on-chain governance.",
+    "objectives": "My goal as a DRep is simple: support what truly grows the Cardano ecosystem. I believe in making smart, strategic decisions — prioritizing initiatives that offer the highest impact with the right balance of risk and reward. As a Snek core contributor and long-time community member, I want to ensure that treasury and governance decisions fuel innovation, adoption, and long-term value creation.",
     "paymentAddress": "addr1q8w7jvxjkdf733djhj5nqalc7uel3rrueywlqkr42qdnr53ay9s23uf3hmwhqzcq0ndeukfakc8786559ppd660tzuqqmyyvym",
-    "qualifications": "Engineer and product manager. I am a Snek core contributor. I met and work with many people in the Cardano development sphere. I am not a technical guy but I know how to build great products and market them.",
+    "qualifications": "I'm a builder, engineer, and team leader with a strong background in product development, market analysis, and finance. As a Snek core contributor, I’ve helped launch and grow one of Cardano’s most adopted tokens — not just by hype, but by delivering real volume, products, users, and visibility to the chain. I understand how to evaluate opportunities, manage trade-offs, and lead teams toward high-impact outcomes. I bring a data-driven mindset, deep market knowledge, and a proven ability to turn ideas into results.",
     "references": [
       {
         "@type": "Link",
-        "label": "Snek core contributor",
+        "label": "Snek",
         "uri": "https://www.snek.com/"
       },
       {
         "@type": "Identity",
-        "label": "Random person who did something at some point on the chain.",
+        "label": "Snek core contributor",
         "uri": "https://x.com/goofy_crisp"
       }
     ]
