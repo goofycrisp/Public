@@ -64,8 +64,8 @@
     "givenName": "Goofycrisp",
     "image": {
       "@type": "ImageObject",
-      "contentUrl": "https://ipfs.io/ipfs/QmTMxCBHJ9ntH6pU4qDMsjdp6dHPxhiUtRx8MStfz1Uyed",
-      "sha256": "f1f30a858fdc911a4c9981a7befb8f5fc3bea7613643adecc39019ddeb8c3369"
+      "contentUrl": "https://i.postimg.cc/13JshZYD/goofy.png",
+      "sha256": "a55649e5e7f68ae023756e535c1d0f2966bb975a47c07c816bd04efbf44e5db1"
     },
     "motivations": "Cardano has massive potential, but it requires bold thinking, smart resource allocation, and real builders leading the way. I’ve been part of this ecosystem since 2017, and today, I want to use my voice to back the people, products, and ideas that can make Cardano thrive. I’m motivated by outcomes — not politics — and want to help bring clarity, momentum, and accountability to on-chain governance.",
     "objectives": "My goal as a DRep is simple: support what truly grows the Cardano ecosystem. I believe in making smart, strategic decisions — prioritizing initiatives that offer the highest impact with the right balance of risk and reward. As a Snek core contributor and long-time community member, I want to ensure that treasury and governance decisions fuel innovation, adoption, and long-term value creation.",
@@ -79,7 +79,7 @@
       },
       {
         "@type": "Identity",
-        "label": "Snek core contributor",
+        "label": "Founder Snek",
         "uri": "https://x.com/goofy_crisp"
       }
     ]
